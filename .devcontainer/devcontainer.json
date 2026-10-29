@@ -1,0 +1,23 @@
+{
+  "image": "ghcr.io/miguelrodo/devcontainers-main:v1.12.1",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "quarto.quarto",
+        "mathematic.vscode-pdf"
+      ]
+    },
+    "codespaces": {
+      "repositories": {
+        "MiguelRodo/comp-2026-projr": {
+          "permissions": {
+            "actions": "write",
+            "contents": "write",
+            "packages": "read",
+            "workflows": "write"
+          }
+        }
+      }
+    }
+  }
+}
