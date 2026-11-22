@@ -3,8 +3,11 @@
   "customizations": {
     "vscode": {
       "extensions": [
+        "REditorSupport.r",
         "quarto.quarto",
-        "mathematic.vscode-pdf"
+        "mathematic.vscode-pdf",
+        "redhat.vscode-yaml",
+        "streetsidesoftware.code-spell-checker"
       ]
     },
     "codespaces": {
